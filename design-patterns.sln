@@ -2,7 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{C34EFC05-B340-D758-436C-D5A6D3C70B11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{C34EFC05-B340-D758-436C-D5A6D3C70B11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonLazyLoading", "SingletonLazyLoading\SingletonLazyLoading.csproj", "{624FA994-0EA5-44A2-9EB6-A82B1E54619C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonThreadsafe", "SingletonThreadsafe\SingletonThreadsafe.csproj", "{27AB1BA2-D139-4967-9909-CCE8467B0F6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +18,14 @@ Global
 		{C34EFC05-B340-D758-436C-D5A6D3C70B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34EFC05-B340-D758-436C-D5A6D3C70B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34EFC05-B340-D758-436C-D5A6D3C70B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{624FA994-0EA5-44A2-9EB6-A82B1E54619C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624FA994-0EA5-44A2-9EB6-A82B1E54619C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624FA994-0EA5-44A2-9EB6-A82B1E54619C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624FA994-0EA5-44A2-9EB6-A82B1E54619C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27AB1BA2-D139-4967-9909-CCE8467B0F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27AB1BA2-D139-4967-9909-CCE8467B0F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27AB1BA2-D139-4967-9909-CCE8467B0F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27AB1BA2-D139-4967-9909-CCE8467B0F6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
